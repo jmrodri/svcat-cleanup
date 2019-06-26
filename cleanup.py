@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from kubernetes import client, config
+from kubernetes import config
 from openshift.dynamic import DynamicClient
 from openshift.dynamic.exceptions import NotFoundError
 import sys
